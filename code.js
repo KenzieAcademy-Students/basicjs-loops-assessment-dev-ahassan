@@ -12,6 +12,13 @@ let displayNumbers = function() { // This function will display the array to the
 }
 document.write("<h3>Now analyzing the array: " + displayNumbers() + "</h3>");
 
+// We want all answers to be rendered using an unordered list
+document.write("<ul>");
+// That means each answer will be rendered with li
+// For example:
+//     document.write("<li>First Number: " + numbers[0] + "</li>");
+//     document.write("<li>Second Number: " + numbers[1] + "</li>");
+
 // Write your code here 👇
 
 // finding the largest number within the array
